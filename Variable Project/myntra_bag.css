@@ -1,0 +1,20 @@
+.add_to_bag{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(120, 233, 139);
+  border-radius: 6px ;
+  border: none;
+}
+.move_to_whishlist{
+  padding: 5px 25px;
+  border-radius:6px;
+  text-transform: uppercase;
+}
+.add_sale_item{
+  padding: 5px 15px;
+  background-color:rgb(120, 233, 139) ;
+  border-radius: 6px;
+  border: none;
+}
