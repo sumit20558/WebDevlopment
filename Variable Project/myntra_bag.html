@@ -8,14 +8,14 @@
 
 </head>
 <body>
-    <button class="add_to_bag" onclick="alert('Your bag has two item')">Add to Bag</button>
+    <button class="add_to_bag" onclick="cartQuantity =cartQuantity + 1;document.querySelector('#cart-summary').innerText=`Your bag has ${cartQuantity} item.`;">Add to Bag</button>
     <button class="move_to_whishlist">Move to whishlist</button>
     <button class="add_sale_item">Add 1+1 sale item</button>
-    <h1>Your bag has 0 item.</h1>
+    <h1 id="cart-summary"></h1>
 
     <script>
-
-
+        let cartQuantity = 0;
+        document.querySelector('#cart-summary').innerText = `Your bag has ${cartQuantity} item.`;
     </script>
     
 </body>
